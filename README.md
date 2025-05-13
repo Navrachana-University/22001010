@@ -11,6 +11,7 @@ This project implements a compiler frontend that translates source code written 
 - `parser.y`: Bison grammar file defining the language syntax and TAC generation logic.
 - `lexer.l`: Flex lexer file specifying token patterns, including support for French keywords and accented characters.
 - `Lab Manual`: Lab manual provided as part of the assignment requirements.
+- `tac_generator.exe`: executable file.
 
 ## Setup and Running Instructions
 ### Prerequisites
