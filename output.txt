@@ -1,0 +1,11 @@
+ifFalse x < 0 goto L2
+print "negative"
+goto L3
+L2:
+ifFalse x == 0 goto L0
+print "zero"
+goto L1
+L0:
+print "positive"
+L1:
+L3:

@@ -1,0 +1,8 @@
+si (x < 0) {
+    imprimer "negative";
+}sinon si (x == 0){
+    imprimer "zero";
+}
+sinon {
+    imprimer "positive";
+}
