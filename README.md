@@ -4,9 +4,8 @@
 This project implements a compiler frontend that translates source code written in a simplified C-like programming language with French keywords (e.g., `imprimer` for print, `si` for if, `sinon` for else) into Three-Address Code (TAC). Built using [Bison](https://www.gnu.org/software/bison/) for parsing and [Flex](https://github.com/westes/flex) for lexical analysis, it showcases fundamental compiler design concepts. The generated TAC is output to `output.txt`.
 
 ## Author
-- **Name**: Ronit P Girglani 
-- **Roll Number**: 22001010
-
+- **Ronit P Girglani 22001010**
+- **Kenil Patel 22001012**
 ## Included Files
 - `parser.y`: Bison grammar file defining the language syntax and TAC generation logic.
 - `lexer.l`: Flex lexer file specifying token patterns, including support for French keywords and accented characters.
